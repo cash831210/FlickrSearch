@@ -17,7 +17,6 @@ struct Photo: Decodable {
     var imageUrl: URL {
         return URL(string: "https://farm\(farm).staticflickr.com/\(server)/\(id)_\(secret)_m.jpg")!
     }
-    
 }
 
 struct PhotoData: Decodable {
